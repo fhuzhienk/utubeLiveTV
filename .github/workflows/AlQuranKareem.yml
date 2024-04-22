@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: AlQuranKareem
+name: KompasTV
 
 # Controls when the action will run. 
 on:
@@ -34,15 +34,15 @@ jobs:
       - name: config
         run: |
           git pull
-          git config --global user.email "warningfm@gmail.com"
-          git config --global user.name "warningfm"
+          git config --global user.email "fhuzhanzk@gmail.com"
+          git config --global user.name "papindytv"
       
       
       - name: Main
         run: |
           pwd
-          chmod +x AlQuranKareem.sh
-          ./AlQuranKareem.sh
+          chmod +x KompasTV.sh
+          ./KompasTV.sh
         
       - name: git add
         run: |
